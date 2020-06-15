@@ -1,0 +1,92 @@
+            /*  navibar styling */
+            
+            .navbar {
+                overflow: hidden;
+                background-color: black;
+                padding: 20px;
+            }
+            
+            .navbar a {
+                color: white;
+                float: right;
+                text-decoration: none;
+                display: block;
+                padding: 10px 20px;
+            }
+            
+            .navbar a.nav-logo {
+                float: left;
+            }
+            
+            .navbar a:hover {
+                color: lightgray;
+            }
+            
+            .welcome-text {
+                text-align: center;
+                ß
+            }
+            /*hero image styling*/
+            
+            .landing-hero-image {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/photo-1444703686981-a3abbc4d4fe3.jpeg");
+                height: 60vh;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+            }
+            
+            .landing-hero-text img {
+                width: 50%;
+                height: auto;
+                border-radius: 100%;
+            }
+            
+            .landing-hero-text {
+                text-align: center;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+            }
+            
+            .landing-hero-text h1 {
+                font-size: 2.5em;
+            }
+            /*about me main menu */
+            
+            img {
+                width: 100%;
+                height: auto;
+            }
+            
+            .about-me-home {
+                display: flex;
+            }
+            
+            .about-me-home-img {
+                flex: 30%;
+                padding: 20px;
+            }
+            
+            .about-me-content {
+                flex: 70%;
+                padding: 20px;
+            }
+            /*footer styling*/
+            
+            .footer p {
+                text-align: center;
+            }
+            /*my portfolio landing page styling section*/
+            
+            .portfolio-title h1 {
+                text-align: center;
+            }
+            
+            .my-portfolio-landing {
+                display: flex;
+                text-align: center;
+            }
